@@ -1,0 +1,61 @@
+﻿git init para crear dos areas para almacenar los archivo;
+git init: para hacer un seguimiento de nuestro proyecto;
+También sirve para las instantáneas;
+Git nos permite hacer segimientos de archivos particulares;
+
+git init name_of_file:Para agregar al área de ensayo 
+
+git status -s: para verificar el comportamiento de los componentes;
+
+git add: Para llevar a área de ensayo
+
+git commit -m: para mandar al repositorio local
+
+Respaldo de las modificaciones prepara el commit:
+git add para agregar al repositorio:
+hacer la fotos instanténeas con commit
+
+listados de todas las copias:
+git log --oneline
+
+para regresar a la primera foto:
+git reset --hard ....
+
+agregar todos los elementos a los seguimientos:
+git add .
+
+Dos pasos en uno:
+git commit -am "descripción"
+
+Para modificar inscripción:
+
+git commit --amend:
+:i //Para empezar a editar
+:wq //Para guardar cambios;
+
+//Subir mi proyecto a git-hub
+
+Editar desde git hub:
+pull para aceptar los movimientos o cambios en remoto;
+$ git pull origin master
+
+La primera versión de mi proyecto:
+$ git tag 26-10-2020v1 -m "vuestra descripción"
+$git push --tags
+
+Si por algún motivo pierdes tus archivos locales, los podrás recuperar fácilmente
+solo escribe esta instrucción en tu consola de git en el directorio deseado:
+
+$ git clone https://github.com/Anacoreta1213/pildoras_git_hud.git
+
+//Crear una rama:
+git branch nombre_de_la_rama
+
+//para saber en que rama me encuentro:
+git branch
+
+//Para pasarme a la rama:
+git checkout name_of_branch
+
+//Para fusionar la rama principal con la subyacente:
+git merge name_of_the_branch
